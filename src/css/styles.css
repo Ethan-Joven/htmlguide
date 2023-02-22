@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: fadein;
+    animation-duration: 1s;
+    background-color: aqua;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+progress {
+    background-color: green;
+    cursor:crosshair;
+}
+
+h1 {
+    color: green;
+}
+
+h2, h3, h4, h5, h6 {
+    color: blue;
+}
+
+p {
+    font-weight: 500;
+}
